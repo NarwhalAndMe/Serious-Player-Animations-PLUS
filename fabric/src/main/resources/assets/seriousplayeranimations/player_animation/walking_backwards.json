@@ -3,7 +3,7 @@
 	"animations": {
 		"walking_backwards": {
 			"loop": true,
-			"animation_length": 2,
+			"animation_length": 2.1,
 			"bones": {
 				"torso": {
 					"rotation": {
@@ -40,6 +40,15 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
+						"0.5": {
+							"vector": [-0.53125, -1, 0]
+						},
+						"1.1": {
+							"vector": [0, 0.4, 0]
+						},
+						"1.5": {
+							"vector": [0, -0.78, 0]
+						},
 						"2.0": {
 							"vector": [0, 0, 0]
 						}
@@ -64,6 +73,15 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
+						"0.5": {
+							"vector": [0, -1, 0]
+						},
+						"1.1": {
+							"vector": [0, 0.4, 0]
+						},
+						"1.5": {
+							"vector": [0, -0.78, 0]
+						},
 						"2.0": {
 							"vector": [0, 0, 0]
 						}
@@ -78,7 +96,7 @@
 							"vector": [-20, 0, 0]
 						},
 						"1.0": {
-							"vector": [0, 0, 0],
+							"vector": [12.5, 0, 0],
 							"easing": "linear"
 						},
 						"1.5": {
@@ -92,8 +110,11 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
+						"0.5": {
+							"vector": [0, -0.5, -1]
+						},
 						"1.0": {
-							"vector": [0, 1, 0],
+							"vector": [0, 2, -3],
 							"easing": "linear"
 						},
 						"1.5": {
@@ -107,7 +128,7 @@
 				"leftLeg": {
 					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0]
+							"vector": [12.5, 0, 0]
 						},
 						"0.5": {
 							"vector": [20, 0, 0]
@@ -119,13 +140,12 @@
 							"vector": [-20, 0, 0]
 						},
 						"2.0": {
-							"vector": [0, 0, 0],
-							"easing": "linear"
+							"vector": [12.5, 0, 0]
 						}
 					},
 					"position": {
 						"0.0": {
-							"vector": [0, 1, 0]
+							"vector": [0, 2, -3]
 						},
 						"0.5": {
 							"vector": [0, 0.33, 1]
@@ -133,13 +153,16 @@
 						"1.0": {
 							"vector": [0, 0, 0]
 						},
+						"1.5": {
+							"vector": [0, -0.5, -1]
+						},
 						"2.0": {
-							"vector": [0, 1, 0],
-							"easing": "linear"
+							"vector": [0, 2, -3]
 						}
 					}
 				}
 			}
 		}
-	}
+	},
+	"geckolib_format_version": 2
 }
